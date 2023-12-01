@@ -11,6 +11,15 @@
 		652B10882B1A5F4600E96C48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10872B1A5F4600E96C48 /* ContentView.swift */; };
 		652B108A2B1A5F4900E96C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652B10892B1A5F4900E96C48 /* Assets.xcassets */; };
 		652B108D2B1A5F4900E96C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652B108C2B1A5F4900E96C48 /* Preview Assets.xcassets */; };
+		652B10982B1A64C500E96C48 /* HighlightSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 652B10972B1A64C400E96C48 /* HighlightSwift */; };
+		652B109C2B1A797100E96C48 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B109B2B1A797100E96C48 /* Constant.swift */; };
+		652B109E2B1A7C6100E96C48 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B109D2B1A7C6100E96C48 /* TextView.swift */; };
+		652B10A22B1A7D4200E96C48 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10A12B1A7D4200E96C48 /* TabViewExample.swift */; };
+		652B10A42B1A7D6900E96C48 /* Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10A32B1A7D6900E96C48 /* Tab1.swift */; };
+		652B10A62B1A7D8000E96C48 /* Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10A52B1A7D8000E96C48 /* Tab2.swift */; };
+		652B10A82B1A7D9A00E96C48 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10A72B1A7D9A00E96C48 /* Page1.swift */; };
+		652B10AA2B1A7DA700E96C48 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10A92B1A7DA700E96C48 /* Page2.swift */; };
+		652B10AD2B1A7E2000E96C48 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10AC2B1A7E2000E96C48 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,14 @@
 		652B10872B1A5F4600E96C48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		652B10892B1A5F4900E96C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652B108C2B1A5F4900E96C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		652B109B2B1A797100E96C48 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		652B109D2B1A7C6100E96C48 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		652B10A12B1A7D4200E96C48 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
+		652B10A32B1A7D6900E96C48 /* Tab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1.swift; sourceTree = "<group>"; };
+		652B10A52B1A7D8000E96C48 /* Tab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2.swift; sourceTree = "<group>"; };
+		652B10A72B1A7D9A00E96C48 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		652B10A92B1A7DA700E96C48 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		652B10AC2B1A7E2000E96C48 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652B10982B1A64C500E96C48 /* HighlightSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +71,10 @@
 			children = (
 				652B10852B1A5F4600E96C48 /* SwiftUI_MasterApp.swift */,
 				652B10872B1A5F4600E96C48 /* ContentView.swift */,
+				652B109D2B1A7C6100E96C48 /* TextView.swift */,
+				652B10AC2B1A7E2000E96C48 /* TextFieldView.swift */,
+				652B10AB2B1A7E0300E96C48 /* TabView */,
+				652B109B2B1A797100E96C48 /* Constant.swift */,
 				652B10892B1A5F4900E96C48 /* Assets.xcassets */,
 				652B108B2B1A5F4900E96C48 /* Preview Content */,
 			);
@@ -65,6 +87,18 @@
 				652B108C2B1A5F4900E96C48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		652B10AB2B1A7E0300E96C48 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				652B10A12B1A7D4200E96C48 /* TabViewExample.swift */,
+				652B10A32B1A7D6900E96C48 /* Tab1.swift */,
+				652B10A52B1A7D8000E96C48 /* Tab2.swift */,
+				652B10A72B1A7D9A00E96C48 /* Page1.swift */,
+				652B10A92B1A7DA700E96C48 /* Page2.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +117,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI Master";
+			packageProductDependencies = (
+				652B10972B1A64C400E96C48 /* HighlightSwift */,
+			);
 			productName = "SwiftUI Master";
 			productReference = 652B10822B1A5F4600E96C48 /* SwiftUI Master.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 652B10792B1A5F4600E96C48;
+			packageReferences = (
+				652B10962B1A64C400E96C48 /* XCRemoteSwiftPackageReference "HighlightSwift" */,
+			);
 			productRefGroup = 652B10832B1A5F4600E96C48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +178,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				652B10882B1A5F4600E96C48 /* ContentView.swift in Sources */,
+				652B109E2B1A7C6100E96C48 /* TextView.swift in Sources */,
 				652B10862B1A5F4600E96C48 /* SwiftUI_MasterApp.swift in Sources */,
+				652B109C2B1A797100E96C48 /* Constant.swift in Sources */,
+				652B10A82B1A7D9A00E96C48 /* Page1.swift in Sources */,
+				652B10A22B1A7D4200E96C48 /* TabViewExample.swift in Sources */,
+				652B10AD2B1A7E2000E96C48 /* TextFieldView.swift in Sources */,
+				652B10A42B1A7D6900E96C48 /* Tab1.swift in Sources */,
+				652B10A62B1A7D8000E96C48 /* Tab2.swift in Sources */,
+				652B10AA2B1A7DA700E96C48 /* Page2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +328,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		652B10962B1A64C400E96C48 /* XCRemoteSwiftPackageReference "HighlightSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/appstefan/HighlightSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		652B10972B1A64C400E96C48 /* HighlightSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 652B10962B1A64C400E96C48 /* XCRemoteSwiftPackageReference "HighlightSwift" */;
+			productName = HighlightSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 652B107A2B1A5F4600E96C48 /* Project object */;
 }
