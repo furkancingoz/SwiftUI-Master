@@ -25,3 +25,20 @@ var backgroundGradient : AngularGradient {
 var backgroundGradient2 : AngularGradient {
   return AngularGradient(gradient: Gradient(colors: [.yellow, .red, .black, .yellow, .red, .black, .yellow]), center: .center)
 }
+
+var backgroundGradient3 : AngularGradient {
+  return AngularGradient(gradient: Gradient(colors: [.red, .orange, .blue, .red, .orange, .blue, .red]), center: .center)
+}
+var backgroundGradient4 : AngularGradient {
+  return AngularGradient(gradient: Gradient(colors: [.purple, .pink, .green, .purple, .pink, .green, .purple]), center: .center)
+}
+var backgroundGradient5 : AngularGradient {
+  return AngularGradient(gradient: Gradient(colors: [.blue, .gray, .white, .blue, .gray, .white, .blue]), center: .center)
+}
+var backgroundGradient6 : AngularGradient {
+  return AngularGradient(gradient: Gradient(colors: [.green, .yellow, .red, .green, .yellow, .red, .green]), center: .center)
+
+}
+var backgroundGradient7 : AngularGradient {
+  return AngularGradient(gradient: Gradient(colors: [.cyan, .purple, .white, .cyan, .purple, .white, .cyan]), center: .center)
+}

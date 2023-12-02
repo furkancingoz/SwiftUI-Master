@@ -12,7 +12,7 @@ struct Page1: View {
       ZStack{
         RoundedRectangle(cornerRadius: 30)
           .frame(width: 700,height: 700)
-          .foregroundColor(Color.green)
+          .foregroundColor(Color.purple)
         Text("Home Screen")
           .font(.largeTitle)
           .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)

@@ -20,6 +20,7 @@
 		652B10A82B1A7D9A00E96C48 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10A72B1A7D9A00E96C48 /* Page1.swift */; };
 		652B10AA2B1A7DA700E96C48 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10A92B1A7DA700E96C48 /* Page2.swift */; };
 		652B10AD2B1A7E2000E96C48 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10AC2B1A7E2000E96C48 /* TextFieldView.swift */; };
+		652B10AF2B1BA22100E96C48 /* UrlLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B10AE2B1BA22100E96C48 /* UrlLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		652B10A72B1A7D9A00E96C48 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
 		652B10A92B1A7DA700E96C48 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
 		652B10AC2B1A7E2000E96C48 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		652B10AE2B1BA22100E96C48 /* UrlLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				652B10A52B1A7D8000E96C48 /* Tab2.swift */,
 				652B10A72B1A7D9A00E96C48 /* Page1.swift */,
 				652B10A92B1A7DA700E96C48 /* Page2.swift */,
+				652B10AE2B1BA22100E96C48 /* UrlLink.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				652B10882B1A5F4600E96C48 /* ContentView.swift in Sources */,
 				652B109E2B1A7C6100E96C48 /* TextView.swift in Sources */,
+				652B10AF2B1BA22100E96C48 /* UrlLink.swift in Sources */,
 				652B10862B1A5F4600E96C48 /* SwiftUI_MasterApp.swift in Sources */,
 				652B109C2B1A797100E96C48 /* Constant.swift in Sources */,
 				652B10A82B1A7D9A00E96C48 /* Page1.swift in Sources */,

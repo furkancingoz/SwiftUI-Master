@@ -10,8 +10,8 @@ import SwiftUI
 struct Tab2: View {
     var body: some View {
       ZStack{
-        RoundedRectangle(cornerRadius: 30)
-          .frame(width: 600,height: 500)
+        RoundedRectangle(cornerRadius: 20)
+          .frame(maxWidth: .infinity,maxHeight: .infinity)
           .foregroundColor(Color.blue)
         Text("Settings Screen")
           .font(.largeTitle)

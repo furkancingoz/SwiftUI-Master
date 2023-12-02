@@ -12,7 +12,7 @@ struct Page2: View {
       ZStack{
         RoundedRectangle(cornerRadius: 30)
           .frame(width: 700,height: 700)
-          .foregroundColor(Color.blue)
+          .foregroundColor(Color.brown)
         Text("Settings Screen")
           .font(.largeTitle)
           .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
