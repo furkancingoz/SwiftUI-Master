@@ -42,6 +42,6 @@ var backgroundGradient6 : AngularGradient {
 var backgroundGradient7 : AngularGradient {
   return AngularGradient(gradient: Gradient(colors: [.cyan, .purple, .white, .cyan, .purple, .white, .cyan]), center: .center)
 }
-var backgroundGradient8 : LinearGradient {
-  return LinearGradient(gradient: Gradient(colors: [.brown, .gray, .brown, .black, .gray, .brown, .gray]), startPoint: .topLeading ,endPoint: .bottomTrailing)
+var backgroundGradient8 : AngularGradient {
+  return AngularGradient(gradient: Gradient(colors: [.orange, .black]), center: .bottom)
 }

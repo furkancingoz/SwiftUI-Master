@@ -129,7 +129,7 @@ buttonStyle(.bordered)
             // actions button
           }.buttonStyle(.automatic)
             .disabled(true)
-            .controlSize(.mini)
+            .controlSize(.large)
             .padding()
 
           Button("Button use border shape") {
@@ -192,7 +192,7 @@ buttonStyle(.bordered)
       }
       .navigationTitle("Button")
       .background(
-        backgroundGradient8.ignoresSafeArea(.all)
+        backgroundGradient.ignoresSafeArea(.all)
       )
 
     }.background(Color.clear)

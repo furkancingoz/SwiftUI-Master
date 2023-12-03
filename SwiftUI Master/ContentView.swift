@@ -20,6 +20,7 @@ enum ContentViewType: String, CaseIterable {
     case textView = "Text View"
     case textFieldView = "Text Field View"
   case urlView = "Url Link"
+  case buttonView = "Button"
 
     @ViewBuilder
     func view() -> some View {
@@ -32,6 +33,8 @@ enum ContentViewType: String, CaseIterable {
             TextFieldView()
         case .urlView:
           UrlLink()
+        case .buttonView:
+          ButtonView()
         }
     }
 }
