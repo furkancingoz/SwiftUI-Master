@@ -114,14 +114,15 @@ buttonStyle(.bordered)
 
           Button("Useage Tint Color Effect Button") {
             // actions button
-          }.buttonStyle(.automatic)
-            .tint(.purple)
+          }.buttonStyle(.bordered)
+            .buttonBorderShape(.capsule)
+            .tint(.gray)
             .padding()
 
           Button("Useage Tint Color Effect and Control size mini Button") {
             // actions button
           }.buttonStyle(.automatic)
-            .tint(.green)
+            .tint(.red)
             .controlSize(.mini)
             .padding()
 
@@ -136,14 +137,14 @@ buttonStyle(.bordered)
             // actions button
           }.buttonStyle(.bordered)
             .buttonBorderShape(.capsule)
-            .tint(.blue)
+            .tint(.yellow)
             .padding()
 
           Button("Button use border shape rectangle") {
             // actions button
           }.buttonStyle(.bordered)
             .buttonBorderShape(.roundedRectangle)
-            .tint(.green)
+            .tint(.orange)
             .padding()
 
           Button {
@@ -172,7 +173,7 @@ buttonStyle(.bordered)
               .clipShape(Circle())
               .overlay(
                 Circle()
-                  .stroke(backgroundGradient4, lineWidth: 2) // Beyaz border ekleniyor
+                  .stroke(backgroundGradient, lineWidth: 2) // Beyaz border ekleniyor
               )
 
             }
